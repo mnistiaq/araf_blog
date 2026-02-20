@@ -1,0 +1,181 @@
+
+
+:root{
+  --bg-main: #f4f4f4;
+  --bg-card: #ffffff;
+  --charcoal: #2c2c2c;
+  --charcoal-light: #444444;
+  --text-main: #1f1f1f;
+  --text-muted: #6c757d;
+  --border: #dddddd;
+}
+
+
+
+body{
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: "Segoe UI", Roboto, sans-serif;
+  line-height: 1.7;
+}
+
+.container{
+  max-width: 1100px;
+}
+
+
+.sp-nav{
+  background: var(--charcoal);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #e0e0e0 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #ffffff !important;
+}
+
+
+.navbar .btn{
+  border: 1px solid #ffffff;
+  color: #ffffff !important;
+}
+
+.navbar .btn:hover{
+  background: #ffffff;
+  color: var(--charcoal) !important;
+}
+
+
+
+.card{
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.text-muted{
+  color: var(--text-muted) !important;
+}
+
+
+
+a{
+  color: var(--charcoal);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+.btn-primary{
+  background: var(--charcoal);
+  border: none;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover{
+  background: var(--charcoal-light);
+}
+
+
+.sp-btn{
+  border: 1px solid var(--charcoal);
+  color: var(--charcoal) !important;
+  background: transparent;
+}
+
+.sp-btn:hover{
+  background: var(--charcoal);
+  color: #ffffff !important;
+}
+
+
+.table .btn{
+  font-size: 0.85rem;
+  padding: 4px 10px;
+}
+
+
+.table .btn-sm{
+  color: #ffffff !important;
+}
+
+
+.table .btn-primary{
+  background: #2c2c2c !important;
+  color: #ffffff !important;
+}
+
+
+.table .btn-danger{
+  background: #8b2e2e !important;
+  border: none;
+  color: #ffffff !important;
+}
+
+
+
+.table{
+  background: #ffffff;
+  border: 1px solid var(--border);
+}
+
+.table thead{
+  background: #efefef;
+  font-weight: 600;
+}
+
+.table td, .table th{
+  vertical-align: middle;
+}
+
+
+
+.sp-badge{
+  border: 1px solid var(--border);
+  background: #f9f9f9;
+  color: var(--charcoal);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+
+
+.form-control,
+.form-select{
+  border: 1px solid var(--border);
+}
+
+.form-control:focus,
+.form-select:focus{
+  border-color: var(--charcoal);
+  box-shadow: none;
+}
+
+
+
+.sp-footer{
+  background: var(--charcoal);
+  color: #dddddd;
+}
+
+.sp-footer a{
+  color: #ffffff;
+}
+
+
+
+.sp-alert{
+  border-radius: 6px;
+}
+
+hr{
+  border-color: var(--border);
+}
